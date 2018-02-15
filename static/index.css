@@ -1,0 +1,40 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body,
+.page {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+select {
+    display: inline-block !important;
+}
+
+textarea {
+    resize: vertical;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    position: absolute !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+@media (min-width:600px) {
+    .d-flex {
+        display:flex;
+    }
+}
+
+
